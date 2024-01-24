@@ -1,0 +1,30 @@
+<!-- Internal CSS -->
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+    }
+    
+    div {
+        width: 200px;
+        height: 200px;
+        border: 8px solid #e7e7e7;
+        border-top-color: #ff5e5e;
+        border-radius: 100%;
+        /*hình tròn*/
+        animation: spinner 1s infinite ease;
+    }
+    
+    @keyframes spinner {
+        from {
+            transform: rotate(0);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+
+<div></div>
